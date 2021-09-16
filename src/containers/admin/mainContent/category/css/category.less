@@ -1,0 +1,54 @@
+.category{
+    width: 100%;
+    height: 100%;
+    background-color: #bfa;
+    .categoryHeader{
+        display: flex;
+        height: 80px;
+        background-color: orange;
+        flex-direction: row-reverse;
+        align-items: center;
+        button{
+            width: 80px;
+            margin-right: 50px;
+            background-color: #1DA57A;
+        }
+    }
+    .categoryContent{
+        th, td {
+            border:1px solid black;
+        }
+        table{
+            margin: 30px auto 0;
+            width: 96%;
+            .categoryTableTitle{
+                th{
+                    background-color: #F7FAF7;
+                    height: 65px;
+                    padding-left: 25px;
+                }
+            }
+            tr{
+                line-height: 65px;
+                text-align: left;
+                td{
+                    height: 65px;
+                    background-color: white;
+                    padding-left: 25px;
+                }
+                .ediBtns{
+                    width: 100px;
+                }
+            }
+        }
+    }
+    .categoryPagi{
+        // display: flex;
+        text-align: right;
+        .pagi{
+            // padding-top: 50px;
+            // padding-right: 22px;
+            padding: 2%;
+        }
+    }
+}
